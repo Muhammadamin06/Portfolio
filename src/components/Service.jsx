@@ -5,7 +5,7 @@ import { LuAnchor, LuMonitor } from "react-icons/lu";
 
 function Service() {
   return (
-    <section className="service container">
+    <section id="service" className="service container">
       <div className="service__head">
       <TypeAnimation sequence={["Services"]} speed={1000} />
       </div>

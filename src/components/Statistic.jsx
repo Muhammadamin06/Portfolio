@@ -2,7 +2,7 @@ import React from "react";
 
 function Statistic() {
   return (
-    <div className="stats">
+    <div id="stats" className="stats">
       <h3 className="stats__title">STATISTIC</h3>
       <div className="stats__block">
         <div className="stats__box">

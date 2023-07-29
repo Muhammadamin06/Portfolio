@@ -5,7 +5,7 @@ import text from "../images/Group.png";
 
 function About() {
   return (
-    <section className="about">
+    <section id="about" className="about">
       <img
         src={pic}
         alt="bussinesmann black suit makes montions"

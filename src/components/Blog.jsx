@@ -5,7 +5,7 @@ import pic from "../images/blog.png";
 
 function Blog() {
   return (
-    <div className="blog container">
+    <div id="blog" className="blog container">
       <div className="blog__info">
         <img src={pic} alt="picture" className="blog__pic" />
         <h7 className="blog__how">

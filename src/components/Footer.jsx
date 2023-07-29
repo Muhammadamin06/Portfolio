@@ -6,9 +6,9 @@ import logo from "../images/logo-black.png";
 
 function Footer() {
   return (
-    <footer className="footer container">
+    <footer id="footer" className="footer container">
       <div>
-        <a className="footer__logo" href="#!">
+        <a className="footer__logo" href="#about">
           <img src={logo} alt="logo" />
           <span>P.</span>
         </a>
@@ -34,19 +34,19 @@ function Footer() {
       <div className="footer__pages">
         <p className="footer__title">Pages</p>
         <div className="footer__list">
-          <a href="#!" className="footer__link">
+          <a href="#head" className="footer__link">
             Home
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#about" className="footer__link">
             About
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#service" className="footer__link">
             Service
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#portfolio" className="footer__link">
             Portfolio
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#blog" className="footer__link">
             Blog
           </a>
         </div>
@@ -54,19 +54,19 @@ function Footer() {
       <div className="services">
         <p className="footer__title">Services</p>
         <div className="footer__list">
-          <a href="#!" className="footer__link">
+          <a href="#portfolio" className="footer__link">
             Web Design
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#portfolio" className="footer__link">
             App Design
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#portfolio" className="footer__link">
             Dashboard
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#portfolio" className="footer__link">
             Illustration
           </a>
-          <a href="#!" className="footer__link">
+          <a href="#portfolio" className="footer__link">
             Development
           </a>
         </div>

@@ -7,7 +7,7 @@ import dash from "../images/dashboard.png";
 
 function Portfolio() {
   return (
-    <section className="portfolio container">
+    <section id="portfolio" className="portfolio container">
       <h6 className="portfolio__title">Featured My Portfolio</h6>
       <p className="portfolio__description">
         Explore some of my latest website projects. Non suscipit ex blandit

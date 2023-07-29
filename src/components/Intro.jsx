@@ -5,7 +5,7 @@ import pic from '../images/small pic.svg'
 
 function Intro() {
   return (
-    <div className="intro container">
+    <div id="intro" className="intro container">
       <div className="intro__info">
         <TypeAnimation
         sequence={["Hey, I'm Musa"]}
